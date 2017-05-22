@@ -21,7 +21,7 @@
   "license": "MIT",
   "require": {
     "php": ">=5.3.9",
-    "apache/log4php": "dev-dev-Log4php",
+    "apache/log4php": "dev-dev-log4php",
     "symfony/validator": "3.*",
     "doctrine/annotations":"1.*",
     "doctrine/cache":"1.*"
