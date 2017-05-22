@@ -21,11 +21,17 @@
   "license": "MIT",
   "require": {
     "php": ">=5.3.9",
-    "apache/log4php": "2.3.0",
+    "apache/log4php": "dev-develop-1.0.0",
     "symfony/validator": "3.*",
     "doctrine/annotations":"1.*",
     "doctrine/cache":"1.*"
   },
+  "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/victor-andreescu/log4php.git"
+        }
+    ],
   "autoload": {
     "psr-4": {
       "com\\realexpayments\\hpp\\sdk\\": [
